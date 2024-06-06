@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizador de Imagem</title>
+    <link rel="stylesheet" href="autoMais.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form id="upload-form">
+          <label for="custom-text">Digite o texto:</label>
+            <input type="text" id="custom-text" placeholder="Digite aqui"><br><br>
+            <label for="image-upload">Selecione uma imagem:</label>
+            <input type="file" id="image-upload" accept="image/*"><br><br>
+        </form>
+        <div class="image-container">
+            <img id="uploaded-image" alt="Imagem carregada">
+            <div class="overlay" id="text-overlay"></div>
+        </div>
+      <button id="download-button">Download</button>
+      <button id="new-image-button">Nova Imagem</button>
+    </div>
+    <script src="autoMais.js"></script>
+</body>
+</html>
