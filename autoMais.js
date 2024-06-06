@@ -31,12 +31,12 @@ document.getElementById('download-button').addEventListener('click', function() 
     context.drawImage(image, 0, 0, canvas.width, canvas.height);
 
     // Definir a altura da barra preta
-    const barHeight = 180;
+    const barHeight = 300;
 
     // Desenhar a barra preta e o texto
     context.fillStyle = 'rgba(0255, 0, 0, 1.0)';
     context.fillRect(0, 0, canvas.width, barHeight);
-    context.font = '48px Roboto';
+    context.font = '52px Roboto';
     context.fillStyle = 'white';
     context.textAlign = 'center';
     context.fillText(text, canvas.width / 2, barHeight / 2 + 16); // Ajuste para centralizar o texto verticalmente
