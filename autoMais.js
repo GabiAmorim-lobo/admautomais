@@ -31,7 +31,7 @@ document.getElementById('download-button').addEventListener('click', function() 
     context.drawImage(image, 0, 0, canvas.width, canvas.height);
 
     // Definir a altura da barra preta
-    const barHeight = 100;
+    const barHeight = 90;
 
     // Desenhar a barra preta e o texto
     context.fillStyle = 'rgba(0255, 0, 0, 1.0)';
